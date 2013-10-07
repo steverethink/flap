@@ -1,0 +1,30 @@
+html, body {
+    /* any div up to fullscreen-cont must have this
+    in this case html and body */
+    height:100%;
+    min-height:100%;
+    margin:0;
+    font:13px/15px Helvetica, Arial, Verdana, sans-serif;
+	color:#628296;
+
+}
+.fullscreen-cont {
+    display:block;position:relative;
+    min-width:100%;
+    min-height:100%;
+}
+.fullscreen-img {
+    display:block;position:absolute;z-index:-1;
+    min-width:100%;
+    min-height:100%;
+    background:transparent url('/flap/images/lightsoutto-bg.jpg') center center no-repeat;
+    background-size:cover;
+}
+
+.dropdown-submenu{position:relative;}
+.dropdown-submenu>.dropdown-menu{top:0;left:100%;margin-top:-6px;margin-left:-1px;-webkit-border-radius:0 6px 6px 6px;-moz-border-radius:0 6px 6px 6px;border-radius:0 6px 6px 6px;}
+.dropdown-submenu:hover>.dropdown-menu{display:block;}
+.dropdown-submenu>a:after{display:block;content:" ";float:right;width:0;height:0;border-color:transparent;border-style:solid;border-width:5px 0 5px 5px;border-left-color:#cccccc;margin-top:5px;margin-right:-10px;}
+.dropdown-submenu:hover>a:after{border-left-color:#ffffff;}
+.dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
+

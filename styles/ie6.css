@@ -1,0 +1,22 @@
+#browser-alert {
+display:block;
+}
+
+#browser-alert {
+	background-color:#440303;
+	color:#FFFFFF;
+	font-size:14px;
+	text-align:center;
+	width:100%;
+	padding:15px 0 0 0;
+}
+
+#browser-alert a:link, a:visited, a:active {
+	font-size:14px;
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+
+#browser-alert a:hover {
+	text-decoration:none;
+}
