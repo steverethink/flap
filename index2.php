@@ -25,6 +25,13 @@
   </head>
 
   <body>
+  
+  <div class="wrapper">
+ <div class="header">
+ 
+ </div><!-- close header -->
+ <div class="container-wrapper">
+  <div class="fullscreen-img"></div>
     <div class="container">
 
 		<!-- Static navbar -->
@@ -39,7 +46,7 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Home</a></li>
             <li class="dropdown">
             	<a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
             	<ul class="dropdown-menu">
@@ -96,7 +103,7 @@
             	</ul>
             </li><!-- close resources list -->
             <li><a href="#">Press</a></li>
-            <li><a href="#">#LightsOutTO</a></li>
+            <li class="active"><a href="#">#LightsOutTO</a></li>
             <li><a href="#">Contact</a></li>
             <li><a href="#">Donate</a></li> 
           </ul> <!-- close nav navbar-nav -->
@@ -106,15 +113,16 @@
             <li><a href="../navbar-fixed-top/">Fixed top</a></li>
           </ul> -->
         </div><!--/.nav-collapse -->
+        
       </div>
-
+  
       <div class="page-header">
-      
-        <h1>It's time to turn the #LightsOutTO</h1>
-        <p class="lead">Every year, millions of birds are killed when office lights are left on.<br />
+    
+        <h1 style="color:#fff;">It's time to turn the #LightsOutTO</h1>
+        <p class="lead" style="color:#fff;">Every year, millions of birds are killed when office lights are left on.<br />
 Choose your tweet to help spread the word:</p>
       </div>
-
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
       <h3>Three equal columns</h3>
       <p>Get three equal-width columns <strong>starting at desktops and scaling to large desktops</strong>. On mobile devices, tablets and below, the columns will automatically stack.</p>
       <div class="row">
@@ -195,7 +203,11 @@ Choose your tweet to help spread the word:</p>
       </div>
 	
     </div> <!-- /container -->
-
+    </div><!-- container wrapper -->
+   	
+	
+   
+</div><!-- wrapper -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->

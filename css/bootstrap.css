@@ -467,7 +467,7 @@ h4 small,
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
-  border-bottom: 1px solid #eeeeee;
+  /* border-bottom: 1px solid #eeeeee; */
 }
 ul,
 ol {
@@ -645,9 +645,40 @@ pre code {
 .container {
   margin-right: auto;
   margin-left: auto;
+  
   padding-left: 15px;
   padding-right: 15px;
+  
+
 }
+/* steve */
+.wrapper {
+	background:url(/flap/images/top-bg.jpg) repeat-x;
+}
+
+.container-wrapper {
+height:600px;
+}
+
+}
+.fullscreen-cont, .container-wrapper {
+    display:block;position:relative;
+    min-width:100%;
+    min-height:100%;
+}
+.fullscreen-img {
+    display:block;position:absolute;z-index:-1;
+    min-width:100%;
+    min-height:100%;
+    background:transparent url('/flap/images/lightsoutto-bg.jpg') center center no-repeat;
+    background-size:cover;
+}
+
+
+.header {
+	height:118px;
+}
+
 .container:before,
 .container:after {
   content: " ";
@@ -3122,6 +3153,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   margin-bottom: 0;
   padding-left: 0;
   list-style: none;
+
 }
 .nav:before,
 .nav:after {
@@ -3155,11 +3187,13 @@ textarea.input-group-sm > .input-group-btn > .btn {
   position: relative;
   display: block;
   padding: 5px 10px;
+  font-size:12px;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee;
+ /*  background-color: #eeeeee; */
+  background:url(/flap/images/nav-bg-hover.jpg);
 }
 .nav > li.disabled > a {
   color: #999999;
@@ -3200,14 +3234,14 @@ textarea.input-group-sm > .input-group-btn > .btn {
   border-radius: 4px 4px 0 0;
 }
 .nav-tabs > li > a:hover {
-  border-color: #eeeeee #eeeeee #dddddd;
+/*   border-color: #eeeeee #eeeeee #dddddd; */
 }
 .nav-tabs > li.active > a,
 .nav-tabs > li.active > a:hover,
 .nav-tabs > li.active > a:focus {
-  color: #555555;
-  background-color: #ffffff;
-  border: 1px solid #dddddd;
+  /* color: #555555; */
+  /* background-color: #ffffff; */
+  /* border: 1px solid #dddddd; */
   border-bottom-color: transparent;
   cursor: default;
 }
@@ -3247,7 +3281,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #ffffff;
-  background-color: #428bca;
+  /* background-color: #428bca; */
 }
 .nav-stacked > li {
   float: none;
@@ -3330,8 +3364,9 @@ textarea.input-group-sm > .input-group-btn > .btn {
   position: relative;
   z-index: 1000;
  /*  min-height: 50px; */
-  margin-bottom: 20px;
-  border: 1px solid transparent;
+  /* margin-bottom: 20px; */
+ /*  margin-top:112px; */
+  /* border: 1px solid transparent; */
 }
 .navbar:before,
 .navbar:after {
@@ -3359,7 +3394,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar {
-    border-radius: 4px;
+    /* border-radius: 4px; */
   }
 }
 .navbar-header:before,
@@ -3533,6 +3568,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
     display: none;
   }
 }
+
 .navbar-nav {
   margin: 7.5px -15px;
 }
@@ -3541,8 +3577,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 padding-top: 10px;
   padding-bottom: 10px;
 */
-  line-height: 20px;
 }
+
 @media (max-width: 767px) {
   .navbar-nav .open .dropdown-menu {
     position: static;
@@ -3671,7 +3707,7 @@ padding-top: 15px;
 .navbar-default {
   background-color: #b4a36c;
   border-color: #e7e7e7;
-}
+  }
 .navbar-default .navbar-brand {
   color: #777777;
 }
@@ -3690,15 +3726,20 @@ padding-top: 15px;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #333333;
-  background-color: transparent;
+  /* color: #333333; */
+  /*background-color: transparent;*/
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #555555;
-  background-color: #e7e7e7;
+  /* color: #555555; */
+ /*  background-color: #e7e7e7; */
 }
+
+.navbar-default .navbar-nav > .active > a {
+	background:url(/flap/images/nav-bg-hover.jpg);
+}
+
 .navbar-default .navbar-nav > .disabled > a,
 .navbar-default .navbar-nav > .disabled > a:hover,
 .navbar-default .navbar-nav > .disabled > a:focus {
