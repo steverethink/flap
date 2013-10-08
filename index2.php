@@ -42,7 +42,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-         <!--<a class="navbar-brand" href="#">Project name</a>-->
+         <!-- <a class="navbar-brand" href="#">F L A P</a> -->
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -118,7 +118,7 @@
   
       <div class="page-header">
     
-        <h1 style="color:#fff;">It's time to turn the #LightsOutTO</h1>
+        <h1 style="color:#fff;">It's time to turn the <span style="color:#00aaf6;">#LightsOutTO</span></h1>
         <p class="lead" style="color:#fff;">Every year, millions of birds are killed when office lights are left on.<br />
 Choose your tweet to help spread the word:</p>
       </div>

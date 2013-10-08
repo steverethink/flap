@@ -21,9 +21,7 @@
 
     <div class="fullscreen-cont">
     <div class="fullscreen-img"></div>
-    <h2 style="color:#fff;">It's time to turn out the #LightsOutTO</h2>
-   
-</div>
+   </div>
 
 </body>
 </html>
