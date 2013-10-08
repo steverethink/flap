@@ -56,7 +56,7 @@ var mygallery=new fadeSlideShow({
 </script>
 
 <script type="text/javascript">
-  Cufon.replace('#header-left h2, #nav li a, #main h2, #main-right h4', { fontFamily: 'Gill Sans', hover: true });
+  Cufon.replace('#header-left h2, .navbar li a, #main h2, #main-right h4', { fontFamily: 'Gill Sans', hover: true });
 </script>
 
 <script type="text/javascript">

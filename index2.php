@@ -8,7 +8,7 @@
     <meta name="author" content="">
     
     <title>Grid Template for Bootstrap</title>
-
+<?php include('inc/js-and-css.php'); ?>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
 

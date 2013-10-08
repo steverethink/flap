@@ -3154,7 +3154,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav > li > a {
   position: relative;
   display: block;
-  padding: 10px 15px;
+  padding: 5px 10px;
 }
 .nav > li > a:hover,
 .nav > li > a:focus {
@@ -3329,7 +3329,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   z-index: 1000;
-  min-height: 50px;
+ /*  min-height: 50px; */
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
@@ -3537,8 +3537,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
   margin: 7.5px -15px;
 }
 .navbar-nav > li > a {
-  padding-top: 10px;
+  /*
+padding-top: 10px;
   padding-bottom: 10px;
+*/
   line-height: 20px;
 }
 @media (max-width: 767px) {
@@ -3572,8 +3574,10 @@ textarea.input-group-sm > .input-group-btn > .btn {
     float: left;
   }
   .navbar-nav > li > a {
-    padding-top: 15px;
+    /*
+padding-top: 15px;
     padding-bottom: 15px;
+*/
   }
 }
 @media (min-width: 768px) {
