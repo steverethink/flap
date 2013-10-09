@@ -28,6 +28,8 @@
 	    	function parallax(){
 				var scrolled = $(window).scrollTop();
 				$('.fullscreen-img').css('background-position-y', -(scrolled * 0.4) + 'px');
+				//$('.fullscreen-img2').css('background-position-y', -(scrolled * 0.1) + 'px');
+				//$('.fullscreen-img3').css('background-position-y', -(scrolled * 0.1) + 'px');
 				
 			}
 		   $(window).scroll(function(e){
@@ -40,7 +42,7 @@
 
   <body>
   
-  <div class="wrapper">
+  <div class="wrapper" >
  
  <div class="container-wrapper">
   <div class="fullscreen-img"></div>
@@ -231,7 +233,7 @@ Choose your tweet to help spread the word:</p>
 	   		
 	   		<div class="row">
 		   		<div class="col-md-6">
-			   		<h2 style="color:#fff; border:0;padding:0;margin:0;">The Problem</h2>
+			   		<h2 style="color:#fff;">The Problem</h2>
 			   		<p class="lead" style="color:#fff;">Many species of birds, some endangered, migrate at night using the age-old and constant patterns of light from the moon, the stars, and from the setting sun as navigational tools to follow their migration routes.</p>
 
 			   		<p class="lead" style="color:#fff;">Lights left on at night, especially those of tall office towers, interfere with this instinctive behavior and draw night-migrating birds into urban areas. Disoriented, the birds find themselves in an unfamiliar maze of lit buildings where they will all too often collide with the building’s windows and walls.</p>
@@ -241,7 +243,7 @@ Choose your tweet to help spread the word:</p>
    	</div><!-- close container-wrapper2 -->
 	 </div><!-- container wrapper -->
   
-  
+  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
    <div class="container-wrapper3">
    	<div class="fullscreen-img3"></div>
    		<div class="container">
@@ -249,16 +251,18 @@ Choose your tweet to help spread the word:</p>
 	   		<div class="row">
 	   		<div class="col-md-6"></div>
 		   		<div class="col-md-6">
-			   		<h2 style="color:#fff; border:0;padding:0;margin:0;">The Problem</h2>
-			   		<p class="lead" style="color:#fff;">Many species of birds, some endangered, migrate at night using the age-old and constant patterns of light from the moon, the stars, and from the setting sun as navigational tools to follow their migration routes.</p>
+			   		<h2 style="color:#fff;">The Solution</h2>
+			   		<p class="lead" style="color:#fff;">Continued awareness of this issue will create the necessary pressure on building management companies, owners, and individual companies to mandate floor lights are turned off at night.</p>
 
-			   		<p class="lead" style="color:#fff;">Lights left on at night, especially those of tall office towers, interfere with this instinctive behavior and draw night-migrating birds into urban areas. Disoriented, the birds find themselves in an unfamiliar maze of lit buildings where they will all too often collide with the building’s windows and walls.</p>
+			   		<p class="lead" style="color:#fff;">So help us spread the word and save millions birds one tweet at a time. </p>
 			   	</div><!-- close col-md-6 -->
 			</div><!-- close row -->
 		</div><!-- close container -->
-   	</div><!-- close container-wrapper2 -->
-	 </div><!-- container wrapper -->
+   	</div><!-- close container-wrapper3 -->
+	
+<footer style="height:50px; background-color:#333;">
 
+</footer>
 </div><!-- wrapper -->
 
     <!-- Bootstrap core JavaScript
