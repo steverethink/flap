@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
     
-    <title>Grid Template for Bootstrap</title>
+    <title>#LightsOutTO - FLAP.org</title>
 <?php include('inc/js-and-css.php'); ?>
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -15,27 +15,39 @@
     <!-- Custom styles for this template -->
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/lightsout.css" rel="stylesheet">
-	<script src="http://code.jquery.com/jquery-latest.js"></script> 
+	<!-- <script src="http://code.jquery.com/jquery-latest.js"></script> -->
 	<script src="js/bootstrap.min.js"></script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="../../assets/js/html5shiv.js"></script>
       <script src="../../assets/js/respond.min.js"></script>
     <![endif]-->
+    
+      <script type="text/javascript">
+	    $(document).ready(function() {
+	    	function parallax(){
+				var scrolled = $(window).scrollTop();
+				$('.fullscreen-img').css('background-position-y', -(scrolled * 0.4) + 'px');
+				
+			}
+		   $(window).scroll(function(e){
+			   parallax();
+		   });
+		
+		});
+	</script>
   </head>
 
   <body>
   
   <div class="wrapper">
- <div class="header">
  
- </div><!-- close header -->
  <div class="container-wrapper">
   <div class="fullscreen-img"></div>
     <div class="container">
 
 		<!-- Static navbar -->
-      <div class="navbar navbar-default">
+      <div class="navbar navbar-default" style="margin-top:118px;">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
@@ -121,24 +133,32 @@
         <h1 style="color:#fff;">It's time to turn the <span style="color:#00aaf6;">#LightsOutTO</span></h1>
         <p class="lead" style="color:#fff;">Every year, millions of birds are killed when office lights are left on.<br />
 Choose your tweet to help spread the word:</p>
-      </div>
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-      <h3>Three equal columns</h3>
+      </div> <!-- close page header -->
+ 
+     <!-- <h3>Three equal columns</h3>
       <p>Get three equal-width columns <strong>starting at desktops and scaling to large desktops</strong>. On mobile devices, tablets and below, the columns will automatically stack.</p>
       <div class="row">
         <div class="col-md-4">.col-md-4</div>
         <div class="col-md-4">.col-md-4</div>
         <div class="col-md-4">.col-md-4</div>
-      </div>
+      </div> -->
 
-      <h3>Three unequal columns</h3>
-      <p>Get three columns <strong>starting at desktops and scaling to large desktops</strong> of various widths. Remember, grid columns should add up to twelve for a single horizontal block. More than that, and columns start stacking no matter the viewport.</p>
+      <!--<h3>Three unequal columns</h3>
+      <p>Get three columns <strong>starting at desktops and scaling to large desktops</strong> of various widths. Remember, grid columns should add up to twelve for a single horizontal block. More than that, and columns start stacking no matter the viewport.</p>-->
       <div class="row">
-        <div class="col-md-3">.col-md-3</div>
-        <div class="col-md-6">.col-md-6</div>
-        <div class="col-md-3">.col-md-3</div>
-      </div>
+      
+       <div class="col-md-3"><a href="https://twitter.com/intent/tweet?button_hashtag=LightsOutTO&text=Building%20lights%20are%20the%20second%20greatest%20threat%20to%20migrating%20birds"  data-url="http://flap.org/LightsOutTO"><img src="/flap/images/LO-tip1.png" alt="Building lights are the second greatest threat to migrating birds" /></a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
+       </div><!-- close col-md-3 -->
+       
+        <div class="col-md-3">  <a href="https://twitter.com/intent/tweet?button_hashtag=LightsOutTO&text=1-10%20birds%20are%20killed%20per%20building%20each%20year"  data-url="http://flap.org/LightsOutTO"><img src="/flap/images/LO-tip2.png" alt="Building lights are the second greatest threat to migrating birds" /></a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+      </div><!-- close col-md-3 -->
+       
+        <div class="col-md-6"><a class="twitter-timeline" width="500" height="350" href="https://twitter.com/search?q=%23LightsOutTo"  data-widget-id="347918358328528896">Tweets about "#LightsOutTo"</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		</div><!-- close col-md-6 -->
+      </div><!-- close row -->
+<!--
       <h3>Two columns</h3>
       <p>Get two columns <strong>starting at desktops and scaling to large desktops</strong>.</p>
       <div class="row">
@@ -201,16 +221,50 @@ Choose your tweet to help spread the word:</p>
         <div class="col-xs-6 col-sm-6 col-lg-6">.col-xs-6 .col-sm-6 .col-lg-6</div>
         <div class="col-xs-6 col-sm-6 col-lg-6">.col-xs-6 .col-sm-6 .col-lg-6</div>
       </div>
+      -->
 	
     </div> <!-- /container -->
-    </div><!-- container wrapper -->
-   	
-	
    
+   	<div class="container-wrapper2">
+   	<div class="fullscreen-img2"></div>
+   		<div class="container">
+	   		
+	   		<div class="row">
+		   		<div class="col-md-6">
+			   		<h2 style="color:#fff; border:0;padding:0;margin:0;">The Problem</h2>
+			   		<p class="lead" style="color:#fff;">Many species of birds, some endangered, migrate at night using the age-old and constant patterns of light from the moon, the stars, and from the setting sun as navigational tools to follow their migration routes.</p>
+
+			   		<p class="lead" style="color:#fff;">Lights left on at night, especially those of tall office towers, interfere with this instinctive behavior and draw night-migrating birds into urban areas. Disoriented, the birds find themselves in an unfamiliar maze of lit buildings where they will all too often collide with the building’s windows and walls.</p>
+			   	</div><!-- close col-md-6 -->
+			</div><!-- close row -->
+		</div><!-- close container -->
+   	</div><!-- close container-wrapper2 -->
+	 </div><!-- container wrapper -->
+  
+  
+   <div class="container-wrapper3">
+   	<div class="fullscreen-img3"></div>
+   		<div class="container">
+	   		
+	   		<div class="row">
+	   		<div class="col-md-6"></div>
+		   		<div class="col-md-6">
+			   		<h2 style="color:#fff; border:0;padding:0;margin:0;">The Problem</h2>
+			   		<p class="lead" style="color:#fff;">Many species of birds, some endangered, migrate at night using the age-old and constant patterns of light from the moon, the stars, and from the setting sun as navigational tools to follow their migration routes.</p>
+
+			   		<p class="lead" style="color:#fff;">Lights left on at night, especially those of tall office towers, interfere with this instinctive behavior and draw night-migrating birds into urban areas. Disoriented, the birds find themselves in an unfamiliar maze of lit buildings where they will all too often collide with the building’s windows and walls.</p>
+			   	</div><!-- close col-md-6 -->
+			</div><!-- close row -->
+		</div><!-- close container -->
+   	</div><!-- close container-wrapper2 -->
+	 </div><!-- container wrapper -->
+
 </div><!-- wrapper -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
+    
+  
   </body>
 </html>

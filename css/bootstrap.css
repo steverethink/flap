@@ -428,7 +428,7 @@ h6 {
 }
 h1,
 .h1 {
-  font-size: 36px;
+  font-size: 48px;
 }
 h2,
 .h2 {
@@ -467,7 +467,7 @@ h4 small,
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
-  border:1px solid red;
+ 
   /* border-bottom: 1px solid #eeeeee; */
 }
 ul,
@@ -658,11 +658,15 @@ pre code {
 }
 
 .container-wrapper {
-height:600px;
+	
 }
 
+.container-wrapper2 {
+
+
 }
-.fullscreen-cont, .container-wrapper {
+
+.fullscreen-cont, .container-wrapper, .container-wrapper2 {
     display:block;position:relative;
     min-width:100%;
     min-height:100%;
@@ -671,8 +675,22 @@ height:600px;
     display:block;position:absolute;z-index:-1;
     min-width:100%;
     min-height:100%;
-    background:transparent url('/flap/images/lightsoutto-bg.jpg') center center no-repeat;
+    height:140%;
+    background:transparent url('/flap/images/lightsoutto-bg.jpg');
+    position:fixed;
     background-size:cover;
+    
+}
+
+.fullscreen-img2 {
+    display:block;position:absolute;z-index:-1;
+    min-width:100%;
+    min-height:100%;
+   
+    background:transparent url('/flap/images/problem-bg.jpg') center center no-repeat;
+  
+    background-size:cover;
+   
 }
 
 
