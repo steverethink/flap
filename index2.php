@@ -19,8 +19,8 @@
 	<script src="js/bootstrap.min.js"></script>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="../../assets/js/html5shiv.js"></script>
-      <script src="../../assets/js/respond.min.js"></script>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
     <![endif]-->
     
       <script type="text/javascript">
@@ -47,16 +47,16 @@
  <div class="container-wrapper">
   <div class="fullscreen-img"></div>
     <div class="container">
-
+<?php include('inc/header.php'); ?>
 		<!-- Static navbar -->
-      <div class="navbar navbar-default" style="margin-top:118px;">
+      <div class="navbar navbar-default">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-         <!-- <a class="navbar-brand" href="#">F L A P</a> -->
+         <a class="navbar-brand" href="#">F L A P</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -149,14 +149,14 @@ Choose your tweet to help spread the word:</p>
       <p>Get three columns <strong>starting at desktops and scaling to large desktops</strong> of various widths. Remember, grid columns should add up to twelve for a single horizontal block. More than that, and columns start stacking no matter the viewport.</p>-->
       <div class="row">
       
-       <div class="col-md-3"><a href="https://twitter.com/intent/tweet?button_hashtag=LightsOutTO&text=Building%20lights%20are%20the%20second%20greatest%20threat%20to%20migrating%20birds"  data-url="http://flap.org/LightsOutTO"><img src="/flap/images/LO-tip1.png" alt="Building lights are the second greatest threat to migrating birds" /></a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+       <div class="col-md-3"><a href="https://twitter.com/intent/tweet?button_hashtag=LightsOutTO&text=Building%20lights%20are%20the%20second%20greatest%20threat%20to%20migrating%20birds"  data-url="http://flap.org/LightsOutTO"><img src="/flap/images/LO-tip1.png" alt="Building lights are the second greatest threat to migrating birds" /></a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> 
 
        </div><!-- close col-md-3 -->
+       <div class="col-md-3"><a href="https://twitter.com/intent/tweet?button_hashtag=LightsOutTO&text=1-10%20birds%20are%20killed%20per%20building%20each%20year"  data-url="http://flap.org/LightsOutTO"><img src="/flap/images/LO-tip2.png" alt="Building lights are the second greatest threat to migrating birds" /></a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+       </div><!-- close col-md-3 -->
        
-        <div class="col-md-3">  <a href="https://twitter.com/intent/tweet?button_hashtag=LightsOutTO&text=1-10%20birds%20are%20killed%20per%20building%20each%20year"  data-url="http://flap.org/LightsOutTO"><img src="/flap/images/LO-tip2.png" alt="Building lights are the second greatest threat to migrating birds" /></a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-      </div><!-- close col-md-3 -->
-       
-        <div class="col-md-6"><a class="twitter-timeline" width="500" height="350" href="https://twitter.com/search?q=%23LightsOutTo"  data-widget-id="347918358328528896">Tweets about "#LightsOutTo"</a>
+             
+        <div class="col-md-6"><a class="twitter-timeline" width="520" height="350" href="https://twitter.com/search?q=%23LightsOutTo"  data-widget-id="347918358328528896">Tweets about "#LightsOutTo"</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 		</div><!-- close col-md-6 -->
       </div><!-- close row -->
@@ -243,7 +243,7 @@ Choose your tweet to help spread the word:</p>
    	</div><!-- close container-wrapper2 -->
 	 </div><!-- container wrapper -->
   
-  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
    <div class="container-wrapper3">
    	<div class="fullscreen-img3"></div>
    		<div class="container">
