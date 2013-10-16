@@ -132,34 +132,35 @@
   
       <div class="page-header">
     
-        <h1 style="color:#fff;">It's time to turn the <span style="color:#00aaf6;">#LightsOutTO</span></h1>
+        <h1 style="color:#fff; letter-spacing:2px;">It's  time  to  turn  the  <span style="color:#00aaf6;">#Lights<span style="color:#fff;">Out</span>TO</span></h1>
         <p class="lead" style="color:#fff;">Every year, millions of birds are killed when office lights are left on.<br />
 Choose your tweet to help spread the word:</p>
       </div> <!-- close page header -->
- 
-     <!-- <h3>Three equal columns</h3>
-      <p>Get three equal-width columns <strong>starting at desktops and scaling to large desktops</strong>. On mobile devices, tablets and below, the columns will automatically stack.</p>
-      <div class="row">
-        <div class="col-md-4">.col-md-4</div>
-        <div class="col-md-4">.col-md-4</div>
-        <div class="col-md-4">.col-md-4</div>
-      </div> -->
 
       <!--<h3>Three unequal columns</h3>
-      <p>Get three columns <strong>starting at desktops and scaling to large desktops</strong> of various widths. Remember, grid columns should add up to twelve for a single horizontal block. More than that, and columns start stacking no matter the viewport.</p>-->
-      <div class="row">
-      
-       <div class="col-md-3"><a href="https://twitter.com/intent/tweet?button_hashtag=LightsOutTO&text=Building%20lights%20are%20the%20second%20greatest%20threat%20to%20migrating%20birds"  data-url="http://flap.org/LightsOutTO"><img src="/flap/images/LO-tip1.png" alt="Building lights are the second greatest threat to migrating birds" /></a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> 
+      <p>Per the documentation, nesting is easy—just put a row of columns within an existing row. This gives you two columns starting at desktops and scaling to large desktops, with another two (equal widths) within the larger column.
 
-       </div><!-- close col-md-3 -->
-       <div class="col-md-3"><a href="https://twitter.com/intent/tweet?button_hashtag=LightsOutTO&text=1-10%20birds%20are%20killed%20per%20building%20each%20year"  data-url="http://flap.org/LightsOutTO"><img src="/flap/images/LO-tip2.png" alt="Building lights are the second greatest threat to migrating birds" /></a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-       </div><!-- close col-md-3 -->
-       
-             
-        <div class="col-md-6"><a class="twitter-timeline" width="520" height="350" href="https://twitter.com/search?q=%23LightsOutTo"  data-widget-id="347918358328528896">Tweets about "#LightsOutTo"</a>
+At mobile device sizes, tablets and down, these columns and their nested columns will stack.</p>-->
+    
+ <div class="row">
+      	<div class="col-md-6">
+        	<a href="https://twitter.com/intent/tweet?button_hashtag=LightsOutTO&text=1-10%20birds%20are%20killed%20per%20building%20each%20year"  data-url="http://flap.org/LightsOutTO"><img src="/flap/images/LO-tip3.png" alt="Building lights are the second greatest threat to migrating birds" /></a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			<div class="row">
+            	<div class="col-md-6"><a href="https://twitter.com/intent/tweet?button_hashtag=LightsOutTO&text=Building%20lights%20are%20the%20second%20greatest%20threat%20to%20migrating%20birds"  data-url="http://flap.org/LightsOutTO"><img src="/flap/images/LO-tip1.png" alt="Building lights are the second greatest threat to migrating birds" /></a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> 
+				</div><!-- close col-md-6 building lights -->
+				<div class="col-md-6"><a href="https://twitter.com/intent/tweet?button_hashtag=LightsOutTO&text=1-10%20birds%20are%20killed%20per%20building%20each%20year"  data-url="http://flap.org/LightsOutTO"><img src="/flap/images/LO-tip2.png" alt="Building lights are the second greatest threat to migrating birds" /></a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+				</div><!-- close col-md-6 migrating -->
+			</div><!-- close row -->
+		</div><!-- close col-md-6 after row -->
+        
+        <div class="col-md-6"><a class="twitter-timeline" width="520" height="412" data-chrome="transparent" href="https://twitter.com/search?q=%23LightsOutTo"  data-widget-id="347918358328528896">Tweets about "#LightsOutTo"</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-		</div><!-- close col-md-6 -->
-      </div><!-- close row -->
+		</div> <!-- twitter timeline close col-md-6 -->
+     </div><!-- close row -->
+
+
+
+           
 <!--
       <h3>Two columns</h3>
       <p>Get two columns <strong>starting at desktops and scaling to large desktops</strong>.</p>
@@ -243,7 +244,7 @@ Choose your tweet to help spread the word:</p>
    	</div><!-- close container-wrapper2 -->
 	 </div><!-- container wrapper -->
   
-  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
    <div class="container-wrapper3">
    	<div class="fullscreen-img3"></div>
    		<div class="container">

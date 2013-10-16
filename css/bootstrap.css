@@ -340,8 +340,18 @@ hr {
 p {
   margin: 0 0 10px;
 }
+
+@font-face{ 
+	font-family: 'callunasans';
+	src: url('/flap/fonts/callunasans.eot');
+	src: url('/flap/fonts/callunasans.eot?iefix') format('eot'),
+	     url('/flap/fonts/callunasans.woff') format('woff'),
+	     url('/flap/fonts/callunasans.ttf') format('truetype'),
+	     url('/flap/fonts/callunasans.svg#webfont') format('svg');
+}
+
 .lead {
-font-family: "Georgia, serif";
+font-family: "callunasans";
   margin-bottom: 20px;
   font-size: 16.099999999999998px;
   font-weight: 200;
@@ -397,7 +407,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "callunasans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500;
   line-height: 1.1;
 }
@@ -657,6 +667,21 @@ pre code {
 
 }
 /* steve */
+
+@font-face{ 
+	font-family: 'Bebas';
+	src: url('/flap/fonts/BEBAS-webfont.eot');
+	src: url('/flap/fonts/BEBAS-webfont.eot?iefix') format('eot'),
+	     url('/flap/fonts/BEBAS-webfont.woff') format('woff'),
+	     url('/flap/fonts/BEBAS-webfont.ttf') format('truetype'),
+	     url('/flap/fonts/BEBAS-webfont.svg#webfont') format('svg');
+}
+
+
+
+h1 {font-family:'Bebas';}
+
+
 .wrapper {
 	background: url(/flap/images/top-bg.jpg) repeat-x;
 
@@ -670,7 +695,18 @@ pre code {
    .navbar {
 	margin-top:0 !important;   
    }
+   
+   #wrapper-outer {
+	   display:none;
+   }
 }
+
+@media (max-width:992px) {
+	#header-right {
+	  display:none;
+  }
+}
+
 
 .navbar {
 	margin-top:-27px;
@@ -700,7 +736,20 @@ pre code {
 	
 	width:100%;
 }
+
+.col-md-6 img {
+	width:100%;
+}
+
 #twitter-widget-0{width:100%;}
+#twitter-widget-0{height:392px !important;}
+
+#twitter-widget-0{background-color:rgba(0,0,0,0.6);  border-radius:6px;padding:0 10px;}
+
+@media (max-width: 1199px) {
+  #twitter-widget-0{height:320px !important;}
+}
+
 
 .fullscreen-img {
     display:block;position:absolute;z-index:-1;
@@ -1044,6 +1093,7 @@ pre code {
   .container {
     max-width: 970px;
   }
+  
   .col-md-1,
   .col-md-2,
   .col-md-3,
