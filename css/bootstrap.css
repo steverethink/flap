@@ -361,6 +361,10 @@ font-family: "callunasans";
   .lead {
     font-size: 21px;
   }
+  
+  .leadcopy {
+	  font-size:18px;
+  }
 }
 small {
   font-size: 85%;
@@ -686,12 +690,29 @@ h1 {font-family:'Bebas';}
 	background: url(/flap/images/top-bg.jpg) repeat-x;
 
 }
+#twitter-widget-0{width:100%;}
+#twitter-widget-0{height:388px !important;}
+
+#twitter-widget-0{background-color:rgba(30,30,30,0.7);  border-radius:6px;padding:0 10px;}
+
+
+@media (max-width: 1199px) {
+  #twitter-widget-0{height:320px !important;}
+  .wrapper {
+	background: url(/flap/images/top-bg-tablet.jpg) repeat-x;
+	}
+	
+  #header-left h1 {
+	font-size:20px;
+	}
+}
 
 @media (max-width: 767px) {
   .wrapper {
     background:none;
   }
   
+
    .navbar {
 	margin-top:0 !important;   
    }
@@ -706,6 +727,7 @@ h1 {font-family:'Bebas';}
 	  display:none;
   }
 }
+
 
 
 .navbar {
@@ -741,14 +763,8 @@ h1 {font-family:'Bebas';}
 	width:100%;
 }
 
-#twitter-widget-0{width:100%;}
-#twitter-widget-0{height:392px !important;}
 
-#twitter-widget-0{background-color:rgba(0,0,0,0.6);  border-radius:6px;padding:0 10px;}
 
-@media (max-width: 1199px) {
-  #twitter-widget-0{height:320px !important;}
-}
 
 
 .fullscreen-img {
@@ -3884,11 +3900,11 @@ padding-top: 15px;
 }
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #777777;
+    color: #fff;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #333333;
+    color: #fff;
     background-color: transparent;
   }
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,

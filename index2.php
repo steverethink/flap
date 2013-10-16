@@ -46,10 +46,10 @@
  
  <div class="container-wrapper">
   <div class="fullscreen-img"></div>
+  <?php include('inc/header.php'); ?>
+
     <div class="container">
-<?php include('inc/header.php'); ?>
-		<!-- Static navbar -->
-      <div class="navbar navbar-default">
+  <div class="navbar navbar-default">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="icon-bar"></span>
@@ -129,10 +129,11 @@
         </div><!--/.nav-collapse -->
         
       </div>
-  
+		<!-- Static navbar -->
+        
       <div class="page-header">
     
-        <h1 style="color:#fff; letter-spacing:2px;">It's  time  to  turn  the  <span style="color:#00aaf6;">#Lights<span style="color:#fff;">Out</span>TO</span></h1>
+        <h1 style="color:#fff; letter-spacing:2px;"><br />It's  time  to  turn  the  <span style="color:#00aaf6;">#Lights<span style="color:#fff;">Out</span>TO</span></h1>
         <p class="lead" style="color:#fff;">Every year, millions of birds are killed when office lights are left on.<br />
 Choose your tweet to help spread the word:</p>
       </div> <!-- close page header -->
@@ -159,72 +160,7 @@ At mobile device sizes, tablets and down, these columns and their nested columns
      </div><!-- close row -->
 
 
-
-           
-<!--
-      <h3>Two columns</h3>
-      <p>Get two columns <strong>starting at desktops and scaling to large desktops</strong>.</p>
-      <div class="row">
-        <div class="col-md-8">.col-md-8</div>
-        <div class="col-md-4">.col-md-4</div>
-      </div>
-
-      <h3>Full width, single column</h3>
-      <p class="text-warning">No grid classes are necessary for full-width elements.</p>
-
-      <hr>
-
-      <h3>Two columns with two nested columns</h3>
-      <p>Per the documentation, nesting is easy—just put a row of columns within an existing row. This gives you two columns <strong>starting at desktops and scaling to large desktops</strong>, with another two (equal widths) within the larger column.</p>
-      <p>At mobile device sizes, tablets and down, these columns and their nested columns will stack.</p>
-      <div class="row">
-        <div class="col-md-8">
-          .col-md-8
-          <div class="row">
-            <div class="col-md-6">.col-md-6</div>
-            <div class="col-md-6">.col-md-6</div>
-          </div>
-        </div>
-        <div class="col-md-4">.col-md-4</div>
-      </div>
-
-      <hr>
-
-      <h3>Mixed: mobile and desktop</h3>
-      <p>The Bootstrap 3 grid system has four tiers of classes: xs (phones), sm (tablets), md (desktops), and lg (larger desktops). You can use nearly any combination of these classes to create more dynamic and flexible layouts.</p>
-      <p>Each tier of classes scales up, meaning if you plan on setting the same widths for xs and sm, you only need to specify xs.</p>
-      <div class="row">
-        <div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
-        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-      </div>
-      <div class="row">
-        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-        <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
-      </div>
-      <div class="row">
-        <div class="col-xs-6 col-md-6">.col-xs-6 .col-md-6</div>
-        <div class="col-xs-6 col-md-6">.col-xs-6 .col-md-6</div>
-      </div>
-
-      <hr>
-
-      <h3>Mixed: mobile, tablet, and desktop</h3>
-      <p></p>
-      <div class="row">
-        <div class="col-xs-12 col-sm-8 col-lg-8">.col-xs-12 .col-lg-8</div>
-        <div class="col-xs-6 col-sm-4 col-lg-4">.col-xs-6 .col-lg-4</div>
-      </div>
-      <div class="row">
-        <div class="col-xs-6 col-sm-4 col-lg-4">.col-xs-6 .col-sm-4 .col-lg-4</div>
-        <div class="col-xs-6 col-sm-4 col-lg-4">.col-xs-6 .col-sm-4 .col-lg-4</div>
-        <div class="col-xs-6 col-sm-4 col-lg-4">.col-xs-6 .col-sm-4 .col-lg-4</div>
-      </div>
-      <div class="row">
-        <div class="col-xs-6 col-sm-6 col-lg-6">.col-xs-6 .col-sm-6 .col-lg-6</div>
-        <div class="col-xs-6 col-sm-6 col-lg-6">.col-xs-6 .col-sm-6 .col-lg-6</div>
-      </div>
-      -->
+     
 	
     </div> <!-- /container -->
    
@@ -244,7 +180,7 @@ At mobile device sizes, tablets and down, these columns and their nested columns
    	</div><!-- close container-wrapper2 -->
 	 </div><!-- container wrapper -->
   
-  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
    <div class="container-wrapper3">
    	<div class="fullscreen-img3"></div>
    		<div class="container">
@@ -252,7 +188,7 @@ At mobile device sizes, tablets and down, these columns and their nested columns
 	   		<div class="row">
 	   		<div class="col-md-6"></div>
 		   		<div class="col-md-6">
-			   		<h2 style="color:#fff;">The Solution</h2>
+			   		<h2 style="color:#fff; font-size:30px; font-weight:700;">The Solution</h2>
 			   		<p class="lead" style="color:#fff;">Continued awareness of this issue will create the necessary pressure on building management companies, owners, and individual companies to mandate floor lights are turned off at night.</p>
 
 			   		<p class="lead" style="color:#fff;">So help us spread the word and save millions birds one tweet at a time. </p>

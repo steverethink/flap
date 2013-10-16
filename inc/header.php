@@ -21,7 +21,7 @@
         <!--<a href="index.php"><img class="floatleft" src="images/logo.jpg" alt="Fatal Light Awareness Program (FLAP) Canada" /></a>-->
         <div class="floatleft" id="header-space">&nbsp;</div>
         
-        <h1><a href="index.php" >Fatal Light Awareness Program Canada</a></h1>
+        <h1 class="head-title"><a href="index.php" >Fatal Light Awareness Program Canada</a></h1>
         <h2>No bird was harmed in the production of this website.<br />A shiny window took care of that.</h2>
       	
       </div> <!-- CLOSE FOR "HEADER-LEFT" -->
