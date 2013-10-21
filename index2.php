@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="description" content="">
     <meta name="author" content="">
     
@@ -32,10 +32,17 @@
 				//$('.fullscreen-img3').css('background-position-y', -(scrolled * 0.1) + 'px');
 				
 			}
-		   $(window).scroll(function(e){
-			   parallax();
-		   });
 		
+			
+					$(window).scroll(function(e){
+					
+					if($(window).width() > 768) {
+					
+						parallax();
+						}
+						
+					});
+		   
 		});
 	</script>
   </head>
@@ -157,11 +164,7 @@ At mobile device sizes, tablets and down, these columns and their nested columns
         <div class="col-md-6"><a class="twitter-timeline" width="520" height="412" data-chrome="transparent" href="https://twitter.com/search?q=%23LightsOutTo"  data-widget-id="347918358328528896">Tweets about "#LightsOutTo"</a>
 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 		</div> <!-- twitter timeline close col-md-6 -->
-     </div><!-- close row -->
-
-
-     
-	
+     </div><!-- close row -->	
     </div> <!-- /container -->
    
    	<div class="container-wrapper2">
