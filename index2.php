@@ -152,11 +152,11 @@ At mobile device sizes, tablets and down, these columns and their nested columns
     
  <div class="row">
       	<div class="col-md-6">
-        	<a href="https://twitter.com/intent/tweet?button_hashtag=LightsOutTO&text=1-10%20birds%20are%20killed%20per%20building%20each%20year"  data-url="http://flap.org/LightsOutTO"><img src="/flap/images/LO-tip3.png" alt="Building lights are the second greatest threat to migrating birds" /></a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+        	<a href="https://twitter.com/intent/tweet?button_hashtag=LightsOutTO&text=Over%201,000,000%20birds%20die%20from%20window%20collisions%20in%20Toronto%20every%20year"  data-url="http://flap.org/LightsOutTO"><img src="/flap/images/LO-tip3.png" alt="Over 1,000,000 birds die from window collisions in toronto every year" /></a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 			<div class="row">
-            	<div class="col-md-6"><a href="https://twitter.com/intent/tweet?button_hashtag=LightsOutTO&text=Building%20lights%20are%20the%20second%20greatest%20threat%20to%20migrating%20birds"  data-url="http://flap.org/LightsOutTO"><img src="/flap/images/LO-tip1.png" alt="Building lights are the second greatest threat to migrating birds" /></a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> 
+            	<div class="col-md-6"><a href="https://twitter.com/intent/tweet?button_hashtag=LightsOutTO&text=Lights%20out%20at%20night%20saves%20bird%20lives"  data-url="http://flap.org/LightsOutTO"><img src="/flap/images/LO-tip1.png" alt="Lights out at night saves bird lives" /></a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script> 
 				</div><!-- close col-md-6 building lights -->
-				<div class="col-md-6"><a href="https://twitter.com/intent/tweet?button_hashtag=LightsOutTO&text=1-10%20birds%20are%20killed%20per%20building%20each%20year"  data-url="http://flap.org/LightsOutTO"><img src="/flap/images/LO-tip2.png" alt="Building lights are the second greatest threat to migrating birds" /></a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+				<div class="col-md-6"><a href="https://twitter.com/intent/tweet?button_hashtag=LightsOutTO&text=1-10%20birds%20are%20killed%20per%20building%20each%20year"  data-url="http://flap.org/LightsOutTO"><img src="/flap/images/LO-tip2.png" alt="1-10 Birds are killed per building each year" /></a><script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 				</div><!-- close col-md-6 migrating -->
 			</div><!-- close row -->
 		</div><!-- close col-md-6 after row -->
@@ -183,7 +183,7 @@ At mobile device sizes, tablets and down, these columns and their nested columns
    	</div><!-- close container-wrapper2 -->
 	 </div><!-- container wrapper -->
   
-  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+  <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
    <div class="container-wrapper3">
    	<div class="fullscreen-img3"></div>
    		<div class="container">

@@ -681,11 +681,6 @@ pre code {
 .dropdown-submenu.pull-left{float:none;}.dropdown-submenu.pull-left>.dropdown-menu{left:-100%;margin-left:10px;-webkit-border-radius:6px 0 6px 6px;-moz-border-radius:6px 0 6px 6px;border-radius:6px 0 6px 6px;}
 
 
-
-
-
-
-
 @font-face{ 
 	font-family: 'Bebas';
 	src: url('/flap/fonts/BEBAS-webfont.eot');
@@ -696,12 +691,12 @@ pre code {
 }
 
 
-
 h1 {font-family:'Bebas';}
 
 
 .wrapper {
 	background: url(/flap/images/top-bg.jpg) repeat-x;
+	
 
 }
 #twitter-widget-0{width:100%;}
@@ -742,10 +737,22 @@ h1 {font-family:'Bebas';}
   }
 }
 
+@media (max-width:1050px) {
+	
+	#wrapper-inner {
+	width:1000;
+	}
+	
+	#header-left {
+	width:655px;
+	float:left;
+}
+}
 
 
 .navbar {
 	margin-top:-27px;
+	border:1px solid red;
 }
 
 .container-wrapper {
@@ -776,9 +783,6 @@ h1 {font-family:'Bebas';}
 .col-md-6 img {
 	width:100%;
 }
-
-
-
 
 
 .fullscreen-img {
@@ -3851,7 +3855,8 @@ padding-top: 15px;
 }
 .navbar-default {
   background-color: #b4a36c;
-  border-color: #e7e7e7;
+  border:none;
+  
 }
 .navbar-default .navbar-brand {
   color: #777777;
