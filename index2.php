@@ -67,66 +67,85 @@
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="#">Home</a></li>
+            <li><a href="/index.php">Home</a></li>
             <li class="dropdown">
-            	<a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+            	<a href="/who-we-are.php" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
             	<ul class="dropdown-menu">
-	            	<li><a href="#">Who we are</a></li>
-	                <li><a href="#">Financials</a></li>
-	                <li><a href="#">Our partners</a></li>
+	            	<li><a href="/who-we-are.php">Who we are</a></li>
+	                <li><a href="/financials.php">Financials</a></li>
+	                <li><a href="/supporters.php">Our partners</a></li>
             	</ul>
             </li><!-- close About list -->
             
             <li class="dropdown">
-            	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Birds &amp; Buildings<b class="caret"></b></a>
+            	<a href="/bird-migration.php" class="dropdown-toggle" data-toggle="dropdown">Birds &amp; Buildings<b class="caret"></b></a>
 				<ul class="dropdown-menu">
-	            	<li><a href="#">Bird Migration</a></li>
-	                <li><a href="#">Hierarchy of Threats</a></li>
-	                <li><a href="#">Glass</a></li>
-	                <li><a href="#">Lights</a></li>
+	            	<li><a href="/bird-migration.php">Bird Migration</a></li>
+	                <li><a href="/hierarchy-of-threats.php">Hierarchy of Threats</a></li>
+	                <li><a href="/glass.php">Glass</a></li>
+	                <li><a href="/lights.php">Lights</a></li>
             	</ul>
             </li><!-- close Birds & buildings list -->
 
 			<li class="dropdown">
             	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Programs &amp; Services<b class="caret"></b></a>
 				<ul class="dropdown-menu">
-	            	<li><a href="#">Bird Rescue</a></li>
+	            	<li><a href="/bird-rescue.php">Bird Rescue</a></li>
 					<li class="dropdown-submenu">
-						<a tabindex="-1" href="#">Research & Analysis</a>
+						<a tabindex="-1" href="/research-and-analysis.php">Research & Analysis</a>
 						<ul class="dropdown-menu">
-							<li><a tabindex="-1" href="#">Royal Ontario Museum Specimens Program</a></li>
-							<li><a href="#">Bird Collision Data</a></li>
-							<li><a href="#">Report a bird Collision</a></li>
+							<li><a tabindex="-1" href="/museum-program.php">Royal Ontario Museum Specimens Program</a></li>
+							<li><a href="/collision-data.php">Bird Collision Data</a></li>
+							<li><a href="/report-bird-collision.php">Report a bird Collision</a></li>
 						</ul>
-	                <li><a href="#">Education programs</a></li>
-	                <li><a href="#">Volunteer Program</a></li>
-	                <li><a href="#">Volunteer Database</a></li>
-	                <li><a href="#">Bird-safe consulting</a></li>
+					</li>
+	                
+	                <li class="dropdown-submenu">
+	                <a href="/toronto-lights-out.php">Education programs</a>
+	                	<ul class="dropdown-menu">
+		                	<li><a href="/toronto-lights-out.php">Lights Out Toronto!</a></li>
+	        				<li><a href="/great-lakes-lights-out.php">Great Lakes Lights Out Initiative</a></li>
+	        				<li><a href="/migration-alerts.php">Migration Alerts</a></li>
+	                	</ul>
+	                
+	                <li><a href="/the-value-of-our-volunteers.php">Volunteer Program</a></li>
+	                <li><a href="http://www.flap.org/db">Volunteer Database</a></li>
+	                <li><a href="/bird-safe-consulting.php">Bird-safe consulting</a></li>
             	</ul>
             </li><!-- close programs and services list -->
 			
 			<li class="dropdown">
-            	<a href="#" class="dropdown-toggle" data-toggle="dropdown">How Can I Help<b class="caret"></b></a>
+            	<a href="/bird-safe-buildings.php" class="dropdown-toggle" data-toggle="dropdown">How Can I Help<b class="caret"></b></a>
 				<ul class="dropdown-menu">
-	            	<li><a href="#">Bird-safe buildings</a></li>
-	                <li><a href="#">If you find a bird</a></li>
-	                <li><a href="#">Start a Flap-like initiative in your city</a></li>
-	                <li><a href="#">Volunteer For Flap</a></li>
-	                <li><a href="#">Donate</a></li>
+	            	<li><a href="/bird-safe-buildings.php">Bird-safe buildings</a></li>
+	                <li><a href="/find-a-bird.php">If you find a bird</a></li>
+	                <li><a href="/start-a-program.php">Start a Flap-like initiative in your city</a></li>
+	                <li><a href="/volunteer.php">Volunteer For Flap</a></li>
+	                <li><a href="donate-now.php">Donate</a></li>
             	</ul>
             </li><!-- close how can i help list -->
-            <li><a href="#">FAQ</a></li>
+            <li><a href="/faqs.php">FAQ</a></li>
             <li class="dropdown">
-            	<a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources<b class="caret"></b></a>
+            	<a href="/resources.php" class="dropdown-toggle" data-toggle="dropdown">Resources<b class="caret"></b></a>
 				<ul class="dropdown-menu">
-	            	<li><a href="#">Links</a></li>
-	                <li><a href="#">Downloads</a></li>
+	            	<li><a href="/links.php">Links</a></li>
+	                <li><a href="/downloads.php">Downloads</a></li>
             	</ul>
             </li><!-- close resources list -->
-            <li><a href="#">Press</a></li>
-            <li class="active"><a href="#">#LightsOutTO</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Donate</a></li> 
+            <li><a href="/press.php">Press</a></li>
+            <li class="active"><a href="/lightsoutto">#LightsOutTO</a></li>
+            <li><a href="/contact.php">Contact</a></li>
+            <li class="dropdown">
+            	<a href="/donate-now.php" class="dropdown-toggle" data-toggle="dropdown">Donate<b class="caret"></b></a>
+				<ul class="dropdown-menu">
+					<li><a href="/monthly-giving.php">Monthly</a></li>
+	        		<li><a href="/single-gifts.php">Single</a></li>
+	        		<li><a href="/tribute-gifts.php">Tribute</a></li>
+	        		<li><a href="/in-memoriam.php">Memoriam</a></li>
+	        		<li><a href="/planned-gift-giving.php">Legacy</a></li>
+	        		<li><a href="/carolynn-parke-memorial-gift.php">Carolynn Parke</a></li>
+				</ul>
+			</li>
           </ul> <!-- close nav navbar-nav -->
        <!--   <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="./">Default</a></li>
@@ -174,9 +193,9 @@ At mobile device sizes, tablets and down, these columns and their nested columns
 	   		<div class="row">
 		   		<div class="col-md-6">
 			   		<h2 style="color:#fff;">The Problem</h2>
-			   		<p class="lead" style="color:#fff;">Many species of birds, some endangered, migrate at night using the age-old and constant patterns of light from the moon, the stars, and from the setting sun as navigational tools to follow their migration routes.</p>
+			   		<p class="lead" style="color:#fff;">Many species of birds, including species at risk, migrate at night. They use age-old patterns of light from the moon, stars and setting sun as navigational tools to follow their migration routes.</p>
 
-			   		<p class="lead" style="color:#fff;">Lights left on at night, especially those of tall office towers, interfere with this instinctive behavior and draw night-migrating birds into urban areas. Disoriented, the birds find themselves in an unfamiliar maze of lit buildings where they will all too often collide with the building’s windows and walls.</p>
+			   		<p class="lead" style="color:#fff;">Lights left on at night lure birds into urban areas. Disoriented, birds can collide with building's windows and walls. During the day, birds collide with our home and office windows because they cannot see glass.</p>
 			   	</div><!-- close col-md-6 -->
 			</div><!-- close row -->
 		</div><!-- close container -->
@@ -192,7 +211,7 @@ At mobile device sizes, tablets and down, these columns and their nested columns
 	   		<div class="col-md-6"></div>
 		   		<div class="col-md-6">
 			   		<h2 style="color:#fff; font-size:30px; font-weight:700;">The Solution</h2>
-			   		<p class="lead" style="color:#fff;">Continued awareness of this issue will create the necessary pressure on building management companies, owners, and individual companies to mandate floor lights are turned off at night.</p>
+			   		<p class="lead" style="color:#fff;">Continued awareness of this issue will encourage building owners to practice responsible light control at night and minimize window reflection and transparency during the day.</p>
 
 			   		<p class="lead" style="color:#fff;">So help us spread the word and save millions birds one tweet at a time. </p>
 			   	</div><!-- close col-md-6 -->
